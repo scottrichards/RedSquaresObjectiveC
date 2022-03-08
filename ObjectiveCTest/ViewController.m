@@ -7,14 +7,19 @@
 
 #import "ViewController.h"
 
+@interface ViewController()
+@property (weak) IBOutlet NSView *colorView;
+@property (weak) IBOutlet NSView *drawView;
+
+@end
+
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
+    _colorView.wantsLayer = true;
+    _colorView.layer.backgroundColor = [[NSColor redColor] CGColor];
 }
-
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];

@@ -12,6 +12,7 @@
 		01A3DC8B27CE6C1C001F30EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A3DC8A27CE6C1C001F30EC /* Assets.xcassets */; };
 		01A3DC8E27CE6C1C001F30EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A3DC8C27CE6C1C001F30EC /* Main.storyboard */; };
 		01A3DC9027CE6C1C001F30EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A3DC8F27CE6C1C001F30EC /* main.m */; };
+		01A3DC9927CE9A8D001F30EC /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A3DC9827CE9A8D001F30EC /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		01A3DC8D27CE6C1C001F30EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01A3DC8F27CE6C1C001F30EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01A3DC9127CE6C1C001F30EC /* ObjectiveCTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ObjectiveCTest.entitlements; sourceTree = "<group>"; };
+		01A3DC9727CE9A8D001F30EC /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		01A3DC9827CE9A8D001F30EC /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				01A3DC8C27CE6C1C001F30EC /* Main.storyboard */,
 				01A3DC8F27CE6C1C001F30EC /* main.m */,
 				01A3DC9127CE6C1C001F30EC /* ObjectiveCTest.entitlements */,
+				01A3DC9727CE9A8D001F30EC /* DrawView.h */,
+				01A3DC9827CE9A8D001F30EC /* DrawView.m */,
 			);
 			path = ObjectiveCTest;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			files = (
 				01A3DC8927CE6C1A001F30EC /* ViewController.m in Sources */,
 				01A3DC9027CE6C1C001F30EC /* main.m in Sources */,
+				01A3DC9927CE9A8D001F30EC /* DrawView.m in Sources */,
 				01A3DC8627CE6C1A001F30EC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
